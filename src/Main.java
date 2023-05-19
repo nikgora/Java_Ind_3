@@ -8,7 +8,7 @@ public class Main {
         System.out.println("Сontent " + countries);
 
         // Ввести з клавіатури ключ, якщо він існує, вивести значення
-        TreeMap<String, CountryInfo> c = new TreeMap<>(countries.getCountries());
+        TreeMap<People, CountryInfo> c = new TreeMap<>(countries.getCountries());
         Scanner console = new Scanner(System.in);
         System.out.print("Enter name of the country to get a value:\n");
         String key = console.nextLine();
@@ -44,14 +44,14 @@ public class Main {
             String capital = fields[2];
             String currency = fields[3];
             String language = fields[4];
-            countries.addCountry(name, population, capital, currency, language);
+            countries.addCountry(new People(),name, population, capital, currency, language);
         }
         console1.close();
         // Виведення оновленого списку країн
         System.out.println("\n--TreeMap after adding new elements from .txt file--\n" + countries.getCountries());
         File file2 = new File("note3.txt");
         PrintWriter writer2 = new PrintWriter(file2);
-        for (Map.Entry<String, CountryInfo> entry : countries.getCountries().entrySet()) {
+        for (Map.Entry<People, CountryInfo> entry : countries.getCountries().entrySet()) {
             writer2.println(entry.getKey() + ": " + entry.getValue());
         }
         writer2.close();
@@ -74,14 +74,14 @@ public class Main {
         File file1 = new File("note1.txt");
         PrintWriter writer = new PrintWriter(file1);
         for (CountryInfo countryInfo : countryList) {
-            String countryName = "";
-            for (Map.Entry<String, CountryInfo> input : countries.getCountries().entrySet()) {
+            People president = new People();
+            for (Map.Entry<People, CountryInfo> input : countries.getCountries().entrySet()) {
                 if (input.getValue().equals(countryInfo)) {
-                    countryName = input.getKey();
+                    president = input.getKey();
                     break;
                 }
             }
-            writer.println(countryName + ": " + countryInfo);
+            writer.println(president + ": " + countryInfo);
         }
         writer.close();
     }

@@ -1,0 +1,26 @@
+Algeria: Population: 44.7, Capital: Algiers, Currency: DZD, Language: Arabic
+
+Brazil: Population: 217.24006, Capital: Brasília, Currency: BRL, Language: Portuguese
+
+China: Population: 1454.977361, Capital: Beijing, Currency: CNY, Language: Mandarin
+
+Cuba: Population: 11.008112, Capital: Havana, Currency: CUP, Language: Spanish
+
+France: Population: 65.273511, Capital: Paris, Currency: EUR, Language: French
+
+Iceland: Population: 0.376248, Capital: Reykjavík, Currency: ISK, Language: Icelandic
+
+Luxembourg: Population: 0.660809, Capital: Luxembourg, Currency: EUR, Language: Luxembourgish
+
+Madagascar: Population: 28.812195, Capital: Antananarivo, Currency: MGA, Language: Malagasy
+
+New Zealand: Population: 5.16438, Capital: Wellington, Currency: NZD, Language: English
+
+South Africa: Population: 60.604992, Capital: Pretoria, Currency: ZAR, Language: Zulu
+
+The Netherlands: Population: 17.8633, Capital: Amsterdam, Currency: EUR, Language: Dutch
+
+Vietnam: Population: 99.46, Capital: Hanoi, Currency: VND, Language: Vietnamese
+
+Yemen: Population: 34.277612, Capital: Sanaa, Currency: YER, Language: Arabic
+
