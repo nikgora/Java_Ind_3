@@ -6,6 +6,8 @@ People{name='14', secondName='14', age=56, sex='w'}: Name: Vietnam, Population: 
 
 People{name='16', secondName='16', age=73, sex='w'}: Name: Vietnam, Population: 99.46, Capital: Hanoi, Currency: VND, Language: Vietnamese
 
+People{name='2', secondName='2', age=52, sex='m'}: Name: France, Population: 65.273511, Capital: Paris, Currency: EUR, Language: French
+
 People{name='8', secondName='8', age=58, sex='m'}: Name: South Africa, Population: 60.604992, Capital: Pretoria, Currency: ZAR, Language: Zulu
 
 People{name='3', secondName='3', age=52, sex='m'}: Name: Algeria, Population: 44.7, Capital: Algiers, Currency: DZD, Language: Arabic
@@ -19,8 +21,6 @@ People{name='9', secondName='9', age=83, sex='w'}: Name: The Netherlands, Popula
 People{name='12', secondName='12', age=52, sex='w'}: Name: Cuba, Population: 11.008112, Capital: Havana, Currency: CUP, Language: Spanish
 
 People{name='15', secondName='15', age=23, sex='w'}: Name: New Zealand, Population: 5.16438, Capital: Wellington, Currency: NZD, Language: English
-
-People{name='5', secondName='5', age=52, sex='m'}: Name: New Zealand, Population: 5.16438, Capital: Wellington, Currency: NZD, Language: English
 
 People{name='6', secondName='6', age=52, sex='w'}: Name: Luxembourg, Population: 0.660809, Capital: Luxembourg, Currency: EUR, Language: Luxembourgish
 
