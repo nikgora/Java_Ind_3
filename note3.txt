@@ -1,26 +1,30 @@
-Algeria: Population: 44.7, Capital: Algiers, Currency: DZD, Language: Arabic
+People{name='1', secondName='1', age=52, sex='m'}: Name: China, Population: 1454.977361, Capital: Beijing, Currency: CNY, Language: Mandarin
 
-Brazil: Population: 217.24006, Capital: Brasília, Currency: BRL, Language: Portuguese
+People{name='10', secondName='10', age=53, sex='w'}: Name: Yemen, Population: 34.277612, Capital: Sanaa, Currency: YER, Language: Arabic
 
-China: Population: 1454.977361, Capital: Beijing, Currency: CNY, Language: Mandarin
+People{name='12', secondName='12', age=52, sex='w'}: Name: Cuba, Population: 11.008112, Capital: Havana, Currency: CUP, Language: Spanish
 
-Cuba: Population: 11.008112, Capital: Havana, Currency: CUP, Language: Spanish
+People{name='13', secondName='13', age=33, sex='m'}: Name: Madagascar, Population: 28.812195, Capital: Antananarivo, Currency: MGA, Language: Malagasy
 
-France: Population: 65.273511, Capital: Paris, Currency: EUR, Language: French
+People{name='14', secondName='14', age=56, sex='w'}: Name: Vietnam, Population: 99.46, Capital: Hanoi, Currency: VND, Language: Vietnamese
 
-Iceland: Population: 0.376248, Capital: Reykjavík, Currency: ISK, Language: Icelandic
+People{name='15', secondName='15', age=23, sex='w'}: Name: New Zealand, Population: 5.16438, Capital: Wellington, Currency: NZD, Language: English
 
-Luxembourg: Population: 0.660809, Capital: Luxembourg, Currency: EUR, Language: Luxembourgish
+People{name='16', secondName='16', age=73, sex='w'}: Name: Vietnam, Population: 99.46, Capital: Hanoi, Currency: VND, Language: Vietnamese
 
-Madagascar: Population: 28.812195, Capital: Antananarivo, Currency: MGA, Language: Malagasy
+People{name='2', secondName='2', age=52, sex='m'}: Name: France, Population: 65.273511, Capital: Paris, Currency: EUR, Language: French
 
-New Zealand: Population: 5.16438, Capital: Wellington, Currency: NZD, Language: English
+People{name='3', secondName='3', age=52, sex='m'}: Name: Algeria, Population: 44.7, Capital: Algiers, Currency: DZD, Language: Arabic
 
-South Africa: Population: 60.604992, Capital: Pretoria, Currency: ZAR, Language: Zulu
+People{name='4', secondName='4', age=52, sex='w'}: Name: Brazil, Population: 217.24006, Capital: Brasília, Currency: BRL, Language: Portuguese
 
-The Netherlands: Population: 17.8633, Capital: Amsterdam, Currency: EUR, Language: Dutch
+People{name='5', secondName='5', age=52, sex='m'}: Name: New Zealand, Population: 5.16438, Capital: Wellington, Currency: NZD, Language: English
 
-Vietnam: Population: 99.46, Capital: Hanoi, Currency: VND, Language: Vietnamese
+People{name='6', secondName='6', age=52, sex='w'}: Name: Luxembourg, Population: 0.660809, Capital: Luxembourg, Currency: EUR, Language: Luxembourgish
 
-Yemen: Population: 34.277612, Capital: Sanaa, Currency: YER, Language: Arabic
+People{name='7', secondName='7', age=42, sex='m'}: Name: Iceland, Population: 0.376248, Capital: Reykjavík, Currency: ISK, Language: Icelandic
+
+People{name='8', secondName='8', age=58, sex='m'}: Name: South Africa, Population: 60.604992, Capital: Pretoria, Currency: ZAR, Language: Zulu
+
+People{name='9', secondName='9', age=83, sex='w'}: Name: The Netherlands, Population: 17.8633, Capital: Amsterdam, Currency: EUR, Language: Dutch
 

@@ -5,15 +5,15 @@ public class Country {
 
     public Country() {
         this.countries = new TreeMap<People, CountryInfo>();
-        countries.put( new People(),new CountryInfo("China",1454.977361, "Beijing", "CNY", "Mandarin"));
-        countries.put(new People(), new CountryInfo("France",65.273511, "Paris", "EUR", "French"));
-        countries.put( new People(),new CountryInfo("Algeria",44.7, "Algiers", "DZD", "Arabic"));
-        countries.put( new People(),new CountryInfo("Brazil",217.240060, "Brasília", "BRL", "Portuguese"));
-        countries.put(new People(), new CountryInfo("New Zealand",5.164380, "Wellington", "NZD", "English"));
-        countries.put(new People(), new CountryInfo("Luxembourg",0.660809, "Luxembourg", "EUR", "Luxembourgish"));
-        countries.put(new People(), new CountryInfo("Iceland",0.376248, "Reykjavík", "ISK", "Icelandic"));
-        countries.put(new People(), new CountryInfo("South Africa",60.604992, "Pretoria", "ZAR", "Zulu"));
-        countries.put(new People(), new CountryInfo("The Netherlands",17.863300, "Amsterdam", "EUR", "Dutch"));
+        countries.put( new People("1","1",52,"m"),new CountryInfo("China",1454.977361, "Beijing", "CNY", "Mandarin"));
+        countries.put(new People("2","2",52,"m"), new CountryInfo("France",65.273511, "Paris", "EUR", "French"));
+        countries.put( new People("3","3",52,"m"),new CountryInfo("Algeria",44.7, "Algiers", "DZD", "Arabic"));
+        countries.put( new People("4","4",52,"w"),new CountryInfo("Brazil",217.240060, "Brasília", "BRL", "Portuguese"));
+        countries.put(new People("5","5",52,"m"), new CountryInfo("New Zealand",5.164380, "Wellington", "NZD", "English"));
+        countries.put(new People("6","6",52,"w"), new CountryInfo("Luxembourg",0.660809, "Luxembourg", "EUR", "Luxembourgish"));
+        countries.put(new People("7","7",42,"m"), new CountryInfo("Iceland",0.376248, "Reykjavík", "ISK", "Icelandic"));
+        countries.put(new People("8","8",58,"m"), new CountryInfo("South Africa",60.604992, "Pretoria", "ZAR", "Zulu"));
+        countries.put(new People("9","9",83,"w"), new CountryInfo("The Netherlands",17.863300, "Amsterdam", "EUR", "Dutch"));
     }
 
     public TreeMap<People, CountryInfo> getCountries() {
@@ -25,7 +25,7 @@ public class Country {
         countries.put(people, countryInfo);
     }
 
-    public void removeCountry(String country) {
+    public void removeCountry(People country) {
         countries.remove(country);
     }
 

@@ -1,6 +1,6 @@
-Yemen, 34.277612, Sanaa, YER, Arabic
-Cuba, 11.008112, Havana, CUP, Spanish
-Madagascar, 28.812195, Antananarivo, MGA, Malagasy
-Vietnam, 99.460000, Hanoi, VND, Vietnamese
-New Zealand, 5.164380, Wellington, NZD, English
-Vietnam, 99.460000, Hanoi, VND, Vietnamese
+10, 10, 53, w, Yemen, 34.277612, Sanaa, YER, Arabic
+12, 12, 52, w, Cuba, 11.008112, Havana, CUP, Spanish
+13, 13, 33, m, Madagascar, 28.812195, Antananarivo, MGA, Malagasy
+14, 14, 56, w, Vietnam, 99.460000, Hanoi, VND, Vietnamese
+15, 15, 23, w, New Zealand, 5.164380, Wellington, NZD, English
+16, 16, 73, w, Vietnam, 99.460000, Hanoi, VND, Vietnamese

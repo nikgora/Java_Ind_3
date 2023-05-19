@@ -31,7 +31,7 @@ public class CountryInfo {
 
     @Override
     public String toString() {
-        return "Population: " + population +
+        return "Name: "+name+", Population: " + population +
                 ", Capital: " + capital +
                 ", Currency: " + currency +
                 ", Language: " + language + "\n";
